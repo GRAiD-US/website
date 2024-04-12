@@ -2,7 +2,6 @@
 import { useState } from 'react';
 
 import { NAV_LINKS } from "@/constants"
-import Button from "@/components/Button"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -16,7 +15,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="border-2 border-red-500 flexBetween max-container padding-container relative z-300 py-5">
+    <nav className="border-2 rounded border-gray-300 bg-gray-200  flexBetween max-container padding-container relative z-300 py-5">
       <Link href="/">
         <Image src="/GRAiD.png" alt="logo" width={74} height={29}/>
       </Link>
@@ -28,33 +27,26 @@ const Navbar = () => {
           </Link>
         ))}
       </ul>
-
-      <div className="lg:flexCenter hidden">
-        <Button 
-          title="Log In"
-          variant="btn_dark_green"
-        />
-      </div>
       
       <button onClick={handleClick} 
         className={
           `lg:hidden bg-steel-500 block transition-all duration-300 ease-out 
-          h-1 w-10 rounded-sm ${isOpen ? 
-          '-translate-y-3' : 'translate-y-1'
+          h-3 w-50 rounded-sm ${isOpen ? 
+          '-translate-y-3' : 'translate-y-1 '
           }`}>
         <Image 
+        className={'translate-x-20'}
         src="menu.svg"
         alt="menu"
         width={32}
         height={32}
         />
-        <div>
-
+        <div style={{padding:5}}>
         </div>
         {NAV_LINKS.map((link) => (
           <Link href={link.href} key={link.key} className={
-            `regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold ${isOpen ? 
-            'opacity-0' : 'opacity-100'
+            `translate-x-7 regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold ${isOpen ? 
+            'opacity-0' : 'opacity-100' 
             }`} >
             {link.label}
           </Link>
