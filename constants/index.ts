@@ -10,8 +10,8 @@ export const FOOTER_LINKS = [
     {
         title: "Learn More",
         links: [
-            "About Hilink",
-            "Press Releases",
+            "About GRAiD",
+            "About Us",
             "Environment",
             "Jobs",
             "Privacy Policy",

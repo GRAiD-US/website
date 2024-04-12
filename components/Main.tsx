@@ -70,12 +70,6 @@ export default function Main() {
             <p className="mb-4">
               Download Graid now and experience the power of AI in learning!
             </p>
-            <div className="flexCenter">
-              {/* <Button
-                title="Download Now"
-                variant="btn_dark_green"
-              /> */}
-            </div>
           </section>
         </div>
       </main>
