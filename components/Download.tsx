@@ -13,8 +13,7 @@ const GetApp = () => {
                     <p className="regular-16 text-gray-380">
                         Available on IOS and Android
                     </p>
-                    <div
-                        className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
+                    <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
                         <Button
                             type="button"
                             title="Download App"
