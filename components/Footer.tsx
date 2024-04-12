@@ -22,8 +22,8 @@ const Footer = () => {
           md:flex-1"
           >
             {FOOTER_LINKS.map((columns) => (
-              <FooterColumn title={columns.title}>
-                <ul
+              <FooterColumn title={columns.title} key={columns.title}>
+                <ul key={columns.title}
                   className="regular-14 flex flex-col gap-4
                 text-gray-30"
                 >

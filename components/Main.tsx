@@ -14,7 +14,7 @@ export default function Main() {
             <p >
               GRAID is a state-of-the-art learning managment system revolutionizing the grading process for classes with advanced features.
               In addition to streamlining the grading process through AI technology, GRAID incorporates a sophisticated AI webcam proctoring feature.
-              This feature ensures exam integrity by monitoring students activities during exams, providing a secure and reliable environment for assessment.
+              This feature ensures exam integrity by monitoring student activities during exams, providing a secure and reliable environment for assessment.
               With GRAID, educators can trust that their exams are conducted with integrity while saving valuable time previously spent on manual proctoring.
               GRAID serves as a robust competitor to platforms like Canvas by offering a comprehensive solution for students and graders alike.
               Not only does GRAID facilitate the seamless submission and grading of assignments, but it also provides a platform for students and graders to communicate effectively through messages and discussion posts.
